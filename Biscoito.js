@@ -7,7 +7,7 @@ class App extends Component{
     super(props);
     this.state = {
       textoFrase: '',
-      img: require('./src/biscoito.png')
+      img: require('./src/Biscoito/biscoito.png')
     }
 
     this.quebraBiscoito = this.quebraBiscoito.bind(this)
